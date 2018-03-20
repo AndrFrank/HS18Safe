@@ -2,7 +2,12 @@ package core;
 
 public class Calculation {
 
-	
+	/**
+	 * Calculation, is the class to handle all calcualations .
+	 * @author  Andreas Frank
+	 * @version 1.0
+	 */
+
 	
 	
 	
