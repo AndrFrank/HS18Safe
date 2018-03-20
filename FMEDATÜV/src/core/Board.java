@@ -29,6 +29,9 @@ public class Board {
 		safetyFunctionList.add(new SafetyFunction(safetyFunctionName));
 	}
 	
-	
+	public void addComponent(String cType, String cFunction) {
+		int size = boardComponentList.size();
+		boardComponentList.add(new Component(size, cType, cFunction));
+	}
 	
 }
