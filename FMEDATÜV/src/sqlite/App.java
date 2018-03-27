@@ -11,9 +11,9 @@ public class App {
 
 	
 	
-	SQLiteTest comptest = new SQLiteTest();
+	SqlComponentHandler comptest = new SqlComponentHandler();
 	try {
-		comptest.displayComponents();
+		System.out.println(comptest.displayComponents());
 	} catch (ClassNotFoundException | SQLException e) {
 		System.out.println("Keine DB");
 		e.printStackTrace();
