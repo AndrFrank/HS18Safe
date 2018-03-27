@@ -23,7 +23,7 @@ public class Board {
 	LinkedList<SafetyFunction> safetyFunctionList = new LinkedList<SafetyFunction>();
 	
 	/**
-     * Construktor for the class Board.
+     * Constructor for the class Board.
      * @param boardName, which specify a board by the name.
      * @param boardNr, which gives the board a specific number.
      * @see If the constructor is called from the project class, the board number is generated automatically.
