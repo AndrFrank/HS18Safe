@@ -17,7 +17,7 @@ public class Component {
 	
 	
 	/**
-     * Construktor for the class Component.
+     * Constructor for the class Component.
      * @param cType, which specify the component type e.g. "Oktokoppler" .
      * @param cNumber, which gives the component a specific number.
      * @param cFunction, which describes the function of component.
@@ -31,6 +31,8 @@ public class Component {
 		this.componentFunction = cFunction;
 	}
 	
+	
+	
 	/**
      * Adding a new failure mode to the failure mode list, by creating a new FailureMode with the given parameters 
      * @param failureModeDescription, which describes the failureMode.
@@ -40,7 +42,7 @@ public class Component {
      * @param comment, which can be used to write an informational comment
      * @param lSd, which is the lambda safe detected.
      * @param lSu, which is the lambda safe undetected.
-     * @param lDd, which is the lambda dangerous etected.
+     * @param lDd, which is the lambda dangerous detected.
      * @param lDu, which is the lambda dangerous undetected.
      */
 	
